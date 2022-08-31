@@ -30,7 +30,10 @@ function enableScrolling(){
     window.onscroll=function(){};
 }
 
-const contactUsBtn=document.getElementsByClassName('contactUsBtn')[0];
+// const contactUsBtn=document.getElementsByClassName('contactUsBtn')[0];
+const contactUsBtn1=document.getElementsByClassName('contactUsBtn')[0];
+const contactUsBtn2=document.getElementsByClassName('contactUsBtn')[1];
+
 const contactModalDiv=document.getElementsByClassName('contactModalDiv')[0]
 const contactModalCross=document.querySelector(".contactModal img");
 const contactModal=document.querySelector('.contactModal');
@@ -49,11 +52,18 @@ window.onclick = function(event) {
  }
 
 // ---------Opening modal-------------
-contactUsBtn.addEventListener('click',()=>{
+
+contactUsBtn1.addEventListener('click',()=>{
     contactModalDiv.style="opacity: 1;visibility: visible;";
     contactModal.style="top:0px";
     disableScrolling();
 });
+contactUsBtn2.addEventListener('click',()=>{
+    contactModalDiv.style="opacity: 1;visibility: visible;";
+    contactModal.style="top:0px";
+    disableScrolling();
+});
+
 
 // ------------Hiding the modal---------
 contactModalCross.addEventListener('click',()=>{
