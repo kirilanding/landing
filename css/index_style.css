@@ -55,31 +55,16 @@ h2.companyname{
 }
 
 #slide1{
-  background-position: left center;
-  background-image:linear-gradient(90deg,  rgba(255, 255, 255, 0.2) 10%,rgba(0,0,0,.9) 100%),url('../imgs/landing_page_bg1.jpg') ;
+  background-position: center center;
+  background-image:linear-gradient(90deg,  rgba(0,0,0,.6) 100%,rgba(0, 0, 0, 0.5) 30%),url('../imgs/landing_page_bg22.jpg') ;
 }
 #slide2{
+  background-image:linear-gradient(90deg,  rgba(0,0,0,.6) 100%,rgba(0, 0, 0, 0.5) 30%),url('../imgs/landing_page_bg33.jpg') ;
   
-  background-image:linear-gradient(90deg,  rgba(255, 255, 255, 0.2) 10%,rgba(0,0,0,.9) 100%),url('../imgs/landing_page_bg2.jpg') ;
 }
 #slide3{
-  background-position: right center;
-  background-image:linear-gradient(90deg,  rgba(255, 255, 255, 0.2) 10%,rgba(0,0,0,.9) 100%),url('../imgs/landing_page_bg3.jpg') ;
-}
+  background-image:linear-gradient(90deg,  rgba(0,0,0,.6) 100%,rgba(0, 0, 0, 0.5) 30%),url('../imgs/landing_page_bg44.jpg') ;
 
-@media only screen and (max-width:640px) {
-  #slide1{
-    background-position: left center;
-    background-image:linear-gradient(90deg,  rgba(0, 0, 0, 0.6) 10%,rgba(0,0,0,.9) 100%),url('../imgs/herobg2.jpg') ;
-  }
-  #slide2{
-    
-    background-image:linear-gradient(90deg,  rgba(0, 0, 0, 0.6) 10%,rgba(0,0,0,.9) 100%),url('../imgs/herobg3.jpg') ;
-  }
-  #slide3{
-    background-position: right center;
-    background-image:linear-gradient(90deg,  rgba(0, 0, 0, 0.6) 10%,rgba(0,0,0,.9) 100%),url('../imgs/herobg4.jpg') ;
-  }
 }
 
 .contactModalDiv{
